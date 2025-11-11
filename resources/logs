@@ -1,0 +1,30 @@
+A variety of job logs might contain information that can help you determine the cause of a communications problem. Many of these logs contain messages that can help you understand what the system has done concerning your communications functions.
+
+The following are some of the most useful jobs to review when you have a communications problem:
+
+QSYSARB
+    System arbiter. This job log is for devices, and communications in general. It also contains ONLINE at IPL messages.
+QSYSCOMM1
+    Communications and input/output system job. This job log is for problem logging and for local area network (LAN) manager messages. It also contains ONLINE at IPL messages for network servers and their lines.
+QCMNARB01 through QCMNARB99
+    Communications arbiter. These job logs contain information for communications startup, take-down, and error recovery.
+QLUS
+    Logical unit services.
+QLUR
+    Logical unit (LU) 6.2 resynchronization job. This job log is for two-phase commit synchronization processing.
+QPASVRP
+    Target 5250 display station pass-through primary server job. This job log is for target pass-through communications functions.
+QPASVRS
+    Target 5250 display station pass-through secondary server job. These contain more detailed messages for target pass-through communication functions
+Subsystem jobs (QINTER and QCMN)
+    Interactive subsystem and communication subsystem. These job logs are for subsystem jobs.
+
+Parent topic:
+Displaying the Print Error Log to solve communication problems
+Related tasks
+
+    Displaying message queues to solve communication problems
+
+Related reference
+
+Remote Work Station Support PDF
